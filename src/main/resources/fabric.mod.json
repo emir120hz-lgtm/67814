@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "kurospotify",
+  "version": "${version}",
+  "name": "Kuro Spotify",
+  "description": "Oyun ici Spotify: giris, sarki sozu cubugu ve ekranin ortasinda ucusan sozler.",
+  "environment": "client",
+  "entrypoints": { "client": ["kurospotify.SpotifyMod"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.4", "java": ">=21", "fabric-api": "*" }
+}
